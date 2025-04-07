@@ -1,0 +1,20 @@
+.sidebar {
+  background-color: var(--lightest);
+
+  border-radius: 8px;
+
+  padding: 30px;
+  height: fit-content;
+
+  transition: all 0.3 ease-in;
+
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    position: static;
+  }
+}

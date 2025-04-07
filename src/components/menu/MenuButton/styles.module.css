@@ -1,0 +1,80 @@
+.btn,
+.selectedBtn {
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+  bottom: -25px;
+  left: 20%;
+  height: 50px;
+  width: 60%;
+
+  border-radius: 32px;
+
+  font-weight: 600;
+}
+
+.btn {
+  justify-content: center;
+  gap: 10px;
+
+  background-color: var(--lightest);
+  border: 1px solid var(--medium);
+  color: var(--darkest);
+
+  cursor: pointer;
+
+  transition: all 0.3s ease-in;
+}
+
+.btn:hover {
+  color: var(--red);
+  border: 1px solid var(--red);
+}
+
+.selectedBtn {
+  justify-content: space-between;
+
+  background-color: var(--red);
+  border: 1px solid var(--red);
+
+  padding: 10px;
+
+  color: var(--lightest);
+}
+
+.buttonInc,
+.buttonDec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid var(--lightest);
+  border-radius: 50%;
+
+  background-color: inherit;
+
+  width: 24px;
+  height: 24px;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease-in;
+}
+
+.buttonInc:hover,
+.buttonDec:hover {
+  border: 1px solid var(--red);
+  background-color: var(--lightest);
+}
+
+.buttonInc svg,
+.buttonDec svg {
+  fill: var(--lightest);
+  transition: all 0.3s ease-in;
+}
+
+.buttonInc:hover svg,
+.buttonDec:hover svg {
+  fill: var(--red);
+}

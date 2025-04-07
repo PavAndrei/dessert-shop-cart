@@ -1,0 +1,16 @@
+.order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description {
+  font-weight: 400;
+  color: var(--darkest);
+}
+
+.price {
+  color: var(--darkest);
+  font-weight: 800;
+  font-size: 22px;
+}

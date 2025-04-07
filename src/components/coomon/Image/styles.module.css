@@ -1,0 +1,22 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.image,
+.selectedImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+
+  border-radius: 16px;
+}
+
+.image {
+  border: 1px solid transparent;
+}
+
+.selectedImage {
+  border: 1px solid var(--red);
+}

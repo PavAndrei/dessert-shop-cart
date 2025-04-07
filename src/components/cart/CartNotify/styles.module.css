@@ -1,0 +1,22 @@
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  text-align: center;
+
+  padding: 20px 0;
+
+  background-color: var(--lighter);
+  border-radius: 8px;
+  font-weight: 400;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.accent {
+  font-weight: 600;
+}

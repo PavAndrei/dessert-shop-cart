@@ -1,0 +1,63 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 2px solid var(--lighter);
+
+  padding: 15px 0;
+}
+
+.title {
+  margin-bottom: 15px;
+
+  font-weight: 600;
+}
+
+.purchase {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 15px;
+}
+
+.quantity {
+  color: var(--red);
+  font-weight: 600;
+}
+
+.price {
+  color: var(--soft);
+  font-weight: 400;
+}
+
+.summ {
+  color: var(--medium);
+  font-weight: 600;
+}
+
+.remove {
+  background-color: var(--lightest);
+  border: 1.5px solid var(--soft);
+  border-radius: 50%;
+
+  padding: 2px 4px;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease-in;
+}
+
+.remove svg {
+  fill: var(--soft);
+
+  transition: all 0.3s ease-in;
+}
+
+.remove:hover {
+  border: 1.5px solid var(--darkest);
+}
+
+.remove:hover.remove svg {
+  fill: var(--darkest);
+}

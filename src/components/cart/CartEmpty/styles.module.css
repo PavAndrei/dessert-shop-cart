@@ -1,0 +1,13 @@
+.group {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text {
+  color: var(--medium);
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+}

@@ -1,0 +1,59 @@
+.list {
+  background-color: var(--lighter);
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+
+  border-bottom: 1px solid var(--soft);
+}
+
+.content {
+  display: flex;
+  gap: 15px;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+
+  border-radius: 8px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.subtitle {
+  font-weight: 600;
+}
+
+.info {
+  display: flex;
+  gap: 20px;
+}
+
+.quantity {
+  color: var(--red);
+  font-weight: 600;
+}
+
+.price {
+  color: var(--soft);
+  font-weight: 400;
+}
+
+.summ {
+  font-weight: 600;
+}

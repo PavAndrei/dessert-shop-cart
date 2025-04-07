@@ -1,0 +1,32 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  border-radius: 8px;
+}
+
+.cart {
+  position: relative;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.category {
+  font-weight: 400;
+  color: var(--medium);
+}
+
+.title {
+  color: var(--darkest);
+  font-weight: 700;
+}
+
+.price {
+  color: var(--red);
+  font-weight: 700;
+}

@@ -1,0 +1,27 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--lightest);
+  font-weight: 600;
+  background-color: var(--red);
+  border: 1px solid var(--red);
+  padding: 20px;
+
+  border-radius: 32px;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease-in;
+}
+
+.btn:hover {
+  background-color: var(--rose);
+}

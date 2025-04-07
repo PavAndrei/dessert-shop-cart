@@ -1,0 +1,19 @@
+.confirmation {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text {
+  color: var(--medium);
+}
+
+.wrapper {
+  background-color: var(--lighter);
+  border-radius: 8px;
+  padding: 0 15px 15px 15px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
