@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/dessert-shop-cart-with-using-react-vite-DDlOKNO7r7)
-- Live Site URL: [Add live site URL here](https://dessert-shop-cart.vercel.app/)
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/dessert-shop-cart-with-using-react-vite-DDlOKNO7r7)
+- Live Site URL: [live](https://dessert-shop-cart.vercel.app/)
 
 ## My process
 
@@ -79,6 +79,6 @@ In the future, I’d like to:
 
 ## Author
 
-- Website - [Add your name here](https://github.com/PavAndrei)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/PavAndrei)
-- Vercel - [@yourusername](https://vercel.com/andrei-pavlovs-projects)
+- Website - [link](https://github.com/PavAndrei)
+- Frontend Mentor - [link](https://www.frontendmentor.io/profile/PavAndrei)
+- Vercel - [link](https://vercel.com/andrei-pavlovs-projects)
