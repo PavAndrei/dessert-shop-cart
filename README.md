@@ -32,12 +32,12 @@ Users should be able to:
 
 ### Screenshot
 
-[](./screenshot.png)
+[screenshot](./screenshot.png)
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/dessert-shop-cart-with-using-react-vite-DDlOKNO7r7)
-- Live Site URL: [](https://dessert-shop-cart.vercel.app/)
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/dessert-shop-cart-with-using-react-vite-DDlOKNO7r7)
+- Live Site URL: [live](https://dessert-shop-cart.vercel.app/)
 
 ## My process
 
@@ -79,6 +79,6 @@ In the future, I’d like to:
 
 ## Author
 
-Frontend Mentor - [](https://www.frontendmentor.io/profile/PavAndrei)
-GitHub - [](https://www.me.com)
-Vercel -[](https://vercel.com/andrei-pavlovs-projects)
+Frontend Mentor - [frontend-mentor](https://www.frontendmentor.io/profile/PavAndrei)
+GitHub - [github](https://www.me.com)
+Vercel -[vercel](https://vercel.com/andrei-pavlovs-projects)
